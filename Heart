@@ -1,0 +1,24 @@
+import turtle as ciz
+
+ciz.bgcolor("#ffffff")
+ciz.pensize(1)
+
+def curve():
+    for i in range(200):
+        ciz.right(1)
+        ciz.forward(1)
+
+ciz.speed(0)
+ciz.color("red", "red")
+
+ciz.begin_fill()
+ciz.left(140)
+ciz.forward(111.65)
+curve()
+
+ciz.left(120)
+curve()
+ciz.forward(111.65)
+ciz.end_fill()
+ciz.hideturtle()
+ciz.done()
